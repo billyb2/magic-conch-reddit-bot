@@ -5,11 +5,11 @@ import time
 
 from random import randint
 
-reddit = praw.Reddit(client_id='8vlJDtcIMx4quA',
-                     client_secret='CJ8fSzb_s74GNODu2CQQ68WqsaI',
+reddit = praw.Reddit(client_id='(client id)',
+                     client_secret='(client secret)',
                      user_agent='heroku:python:v0.1 (by /u/WhatsALigma)',
                      username='hailthemagicconchbot',
-                     password='1k2R1OWBmcXme6rV2PLmMR6eyGUtpFxF0pH')
+                     password='(My password)')
 
 previous_id="0"
 
